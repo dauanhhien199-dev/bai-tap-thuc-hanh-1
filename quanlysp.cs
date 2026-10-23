@@ -4,7 +4,6 @@ using System.Collections.Generic;
 
 List<Product> products = new List<Product>();
 
-// Nhap thong tin 3 san pham
 for (int i = 0; i < 3; i++)
 {
     Console.WriteLine($"\nNhap san pham thu {i + 1}:");
@@ -24,7 +23,7 @@ for (int i = 0; i < 3; i++)
     products.Add(p);
 }
 
-Console.WriteLine("\n===== DANH SACH SAN PHAM =====");
+Console.WriteLine("\n DANH SACH SAN PHAM ");
 
 foreach (Product p in products)
 {
